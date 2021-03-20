@@ -7,9 +7,11 @@ body {
 }
 
 .question,
+/*
 .skills,
 .about,
 .job-interest{
+*/
 	display: none;
 	
 }
@@ -38,4 +40,5 @@ textarea {
 	border: none;
 	padding: 10px 30px;
 	font-size: 24px;
+	margin: 30px 0 50px 0;
 }
