@@ -1,0 +1,41 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.question,
+.skills,
+.about,
+.job-interest{
+	display: none;
+	
+}
+
+
+.question-appear,
+.skills-appear,
+.about-appear,
+.job-interest-appear{
+	display: block;
+}
+
+.wrapper {
+	margin: 0 20vw;
+}
+
+textarea {
+	resize: none;
+	width: 100%;
+	
+}
+
+.btn-primary {
+	background-color: #29c0f3;
+	color: white;
+	border: none;
+	padding: 10px 30px;
+	font-size: 24px;
+}
