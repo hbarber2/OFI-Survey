@@ -9,7 +9,6 @@
 			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 			crossorigin="anonymous"
 		/>
-		<link rel="preconnect" href="https://fonts.gstatic.com" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
 			rel="stylesheet"
@@ -18,13 +17,12 @@
 	</head>
 
 	<body>
-		<div class="wrapper">
-			<h1>Employee Survey</h1>
-			<h2>Please fill out this survey</h2>
+		<div class="wrapper p-5">
+			<h2>Employee Survey</h2>
 
 			<!-------------- Personal Information ------------------>
 
-			<div class="mb-3">
+			<div class="mb-3 mt-4">
 				<label for="firstname" class="form-label">First Name</label>
 				<input type="text" class="name_first form-control" id="firstname" value="" />
 			</div>
@@ -53,7 +51,7 @@
 				<input type="text" class="address_zip form-control" id="address" value="" />
 			</div>
 
-			<div>
+			<div class="my-4">
 				<button type="button" class="basic-info-btn btn btn-primary">
 					Next
 				</button>
@@ -66,9 +64,9 @@
 			<!-------------- About ------------------>
 
 			<div class="about">
-				<h2>More about you</h2>
+				<h5>More about you</h5>
 				<textarea
-					class="statement"
+					class="statement mt-2 mb-4"
 					placeholder="Tell us more about yourself"
 				></textarea>
 				<div>
