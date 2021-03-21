@@ -8,9 +8,11 @@ body {
 }
 
 .question,
+/*
 .skills,
 .about,
 .job-interest{
+*/
 	display: none;
 	
 }
@@ -40,6 +42,7 @@ textarea {
 	border: none;
 	padding: 10px 30px;
 	font-size: 24px;
+<<<<<<< HEAD:css/style.css
 } */
 
 .btn-primary{
@@ -49,4 +52,7 @@ textarea {
 
 .btn-primary:hover {
     background-color: #4ca1bd !important;
+=======
+	margin: 30px 0 50px 0;
+>>>>>>> origin/main:employee-survey/css/style.css
 }
