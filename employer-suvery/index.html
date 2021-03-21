@@ -9,19 +9,18 @@
 			integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
 			crossorigin="anonymous"
 		/>
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
-		<link rel="stylesheet" href="../css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet"> 
+		<link rel="stylesheet" href="../employee-survey/css/style.css" />
 	</head>
 
 	<body>
-		<div class="wrapper">
-			<h1>Employer Survey</h1>
+		<div class="wrapper p-5">
+			<h2>Employer Survey</h2>
 			
 <!-------------- Personal Information ------------------>
 			
 
-			<div class="mb-3">
+			<div class="mb-3 mt-4">
 				<label for="supervisorFirstName" class="form-label">Supervisor's First Name</label>
 				<input type="text" class="name_first form-control" id="supervisorFirstName" />
 			</div>
@@ -33,7 +32,7 @@
 				<label for="email" class="form-label">Email</label>
 				<input type="email" class="email form-control" id="email" />
 			</div>
-						<div class="mb-3">
+			<div class="mb-3">
 				<label for="companyName" class="form-label">Company Name</label>
 				<input type="text" class="company form-control" id="companyName" />
 			</div>
@@ -45,11 +44,11 @@
 				<label for="address_street" class="form-label">Company Street Name</label>
 				<input type="text" class="address_street form-control" id="address_street" />
 			</div>
-									<div class="mb-3">
+			<div class="mb-3">
 				<label for="address_line2" class="form-label">Company City/Town</label>
 				<input type="text" class="address_line2 form-control" id="address_line2" />
 			</div>
-									<div class="mb-3">
+			<div class="mb-3">
 				<label for="address_zip" class="form-label">Zip Code</label>
 				<input type="number" class="address_zip form-control" id="address_zip" />
 			</div>
@@ -59,9 +58,11 @@
 			<!-- Questions for employer -->
 			
 			
-			<div class="employement-time">
-				<h2>Are you interested in full time work, part time work, or both?</h2>
-				<div class="form-check">
+			<div class="employement-time mt-4">
+				<h5>
+					Are you interested in full time work, part time work, or both?
+				</h5>
+				<div class="form-check mt-2">
 					<input
 						class="form-check-input"
 						type="checkbox"
@@ -98,10 +99,12 @@
 				
 			<!-- Positions looking to fill -->
 				
-			<div class="skills">
-				<h2>What position are you looking to fill?</h2>
+			<div class="skills mt-4">
+				<h5>
+					What position are you looking to fill?
+				</h5>
 
-				<div class="form-check">
+				<div class="form-check mt-2">
 					<input
 						class="form-check-input"
 						type="checkbox"
@@ -179,7 +182,7 @@
 					</label>
 				</div>
 
-				<div>
+				<div class="mt-4">
 					<button type="button" class="skills-btn btn btn-primary">
 						Next
 					</button>
