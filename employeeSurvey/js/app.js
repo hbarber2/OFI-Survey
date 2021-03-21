@@ -75,7 +75,7 @@ basicInfoNextBtn.addEventListener("click", () => {
 
 	// 3. Add question
 	newEl.innerHTML = `
-			<h3>${questions[0][1]}</h3>
+			<h5>${questions[0][1]}</h5>
 			<button type="button" class="q${questions[0][0]}-yes ${
 		questions[0][2]
 	} btn btn-primary">Yes</button>
@@ -115,9 +115,9 @@ function inputQuestion() {
 
 	// 3. Add question
 	newEl.innerHTML = `
-			<h3>${questions[currentQ][1]}</h3>
+			<h5 class="mt-4">${questions[currentQ][1]}</h5>
 			<input class="max-commute form-control" type="text" placeholder="ex. 25 minutes" aria-label="default input example">
-			<button type="button" class="next-btn btn btn-primary">Next</button>
+			<button type="button" class="next-btn btn btn-primary mt-2">Next</button>
 		`;
 
 	questionTemplate.appendChild(newEl);
@@ -155,7 +155,7 @@ function nextQuestion() {
 
 	// 3. Add question
 	newEl.innerHTML = `
-			<h3>${questions[currentQ][1]}</h3>
+			<h5 class="mt-4">${questions[currentQ][1]}</h5>
 			<button type="button" class="q${questions[currentQ][0]}-yes ${
 		questions[currentQ][2]
 	} btn btn-primary">Yes</button>
